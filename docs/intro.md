@@ -17,11 +17,11 @@ I’m Fisayo Afowowe, a technical writer with a background in web development, c
 | Module | Final Deliverables | Live Link |
 |--------------|---------------------|-----------|
 | [Documentation Tooling & Static Site Generators](./documentation-tooling/intro) | How-to guide for setting up a docs-as-code workflow using Docusaurus | _[Add link]_ |
-| [API Documentation & OpenAPI](./docs/api-documentation) | Improved documentation for selected endpoints from a real or public API | _[Add link]_ |
-| [Documentation Automation](./docs/docs-automation) | Automated checks (style, links, builds) using tools like Vale, Spectral, and GitHub Actions | _[Add link]_ |
-| [AI for Documentation](./docs/ai-documentation) | Comparison of AI tools or prompt-based documentation using your own examples | _[Add link]_ |
-| [DevOps & Cloud Documentation](./docs/devops-cloud-documentation) | Step-by-step guide for a DevOps/cloud tool or process (e.g., CI/CD, deployment) | _[Add link]_ |
-| [Technical Writing in Web3](./docs/web3-documentation) | One of: user guide for a Web3 tool, white paper draft, or improved API doc for a Web3 platform | _[Add link]_ |
+<!-- | [API Documentation & OpenAPI](./api-documentation) | Improved documentation for selected endpoints from a real or public API | _[Add link]_ |
+| [Documentation Automation](./docs-automation) | Automated checks (style, links, builds) using tools like Vale, Spectral, and GitHub Actions | _[Add link]_ |
+| [AI for Documentation](./ai-documentation) | Comparison of AI tools or prompt-based documentation using your own examples | _[Add link]_ |
+| [DevOps & Cloud Documentation](./devops-cloud-documentation) | Step-by-step guide for a DevOps/cloud tool or process (e.g., CI/CD, deployment) | _[Add link]_ |
+| [Technical Writing in Web3](./web3-documentation) | One of: user guide for a Web3 tool, white paper draft, or improved API doc for a Web3 platform | _[Add link]_ | -->
 
 
 ## 🔗 Additional Links

@@ -51,11 +51,6 @@ const sidebars = {
       ],
       label: "Documentation Tooling & Static Site Generators",
     },
-    {
-      type: "doc",
-      label: "Web3 Documentation",
-      id: 'web3-documentation/intro',
-    },
   ],
 };
 
