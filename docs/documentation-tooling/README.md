@@ -3,7 +3,7 @@
 This project involved auditing and restructuring the documentation for **React Native Onboarding Swiper** using **Docusaurus**.
 
 ## Live Site
-[View Site](https://www.npmjs.com/package/react-native-onboarding-swiper?activeTab=readme)
+[View Site](https://fisayosportfolio.vercel.app/docs/documentation-tooling/intro)
 
 ## What I Improved
 - Created a clear and structured documentation to help users understand what the library does, as there was no proper documentation prior to this.
