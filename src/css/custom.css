@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #8d8ded;
+  --ifm-color-primary-dark: #7f7fdb;
+  --ifm-color-primary-darker: #7373ce;
+  --ifm-color-primary-darkest: #5e5eb0;
+  --ifm-color-primary-light: #9a9af0;
+  --ifm-color-primary-lighter: #a8a8f2;
+  --ifm-color-primary-lightest: #c7c7f7;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Poppins', sans-serif;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #b3b3ff;
+  --ifm-color-primary-dark: #9d9df5;
+  --ifm-color-primary-darker: #8989eb;
+  --ifm-color-primary-darkest: #6c6cd6;
+  --ifm-color-primary-light: #c2c2ff;
+  --ifm-color-primary-lighter: #d1d1ff;
+  --ifm-color-primary-lightest: #e8e8ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
