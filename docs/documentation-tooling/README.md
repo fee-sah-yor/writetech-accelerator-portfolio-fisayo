@@ -1,18 +1,20 @@
 # Documentation Tooling Project (Docusaurus Site)
-This project involved auditing and restructuring documentation for the React Native Onboarding Swiper using Docusaurus.
+
+This project involved auditing and restructuring the documentation for **React Native Onboarding Swiper** using **Docusaurus**.
 
 ## Live Site
 [View Site](https://www.npmjs.com/package/react-native-onboarding-swiper?activeTab=readme)
 
 ## What I Improved
-- I created a documenatationt that makes it easier for users to understand what the package librbary does. They didnt have one prior to now
-- I added a tutorial example with screenshots so that users can see what the results look like wihtout having to leva e the documentattion page
-- I alos restructured the documentation to give it a better view and ease of nab=viagtion for beginners lookin gto know the product
+- Created a clear and structured documentation to help users understand what the library does, as there was no proper documentation prior to this.
+- Added a tutorial example with screenshots, allowing users to see results directly without leaving the documentation page.
+- Restructured the documentation to improve readability and navigation, making it easier for beginners to learn about the product.
 
 ## Challenges
-- I
-- [Challenge 2]
+- Understanding the library from a beginner's perspective and identifying what users might find confusing, since the original documentation was sparse.
+- Structuring the documentation in a way that balances detailed explanations with visual examples, ensuring it is both informative and easy to navigate.
 
-## What I Learnt
-- The importance of having a well structured documentation. when creatung this it was easy for me to see from the users POV becaus ei had been in their shoes when using this aprticular library so i made sure to address those painpoints when creating this dcoumentation.
-- Videos, Images or coding snipppets are one of the most crucial aprts o f any documentation, they show that the users needs were peoperly considered and accounted for, that was my aim. with this documentation. They also quickly convey the message without using too many words.
+
+## What I Learned
+- A well-structured documentation is essential. Creating this documentation helped me see the library from the user's perspective and address common pain points effectively.
+- Including videos, images, and code snippets is crucial. These elements quickly convey information, demonstrate use cases, and ensure that user needs are properly considered and addressed.
