@@ -23,33 +23,63 @@ const sidebars = {
     // "intro",
     {
       type: "doc",
-      label: "Introduction to my Portfolio",
+      label: "About Me",
       id: "intro", // 👈 this doc opens when category itself is clicked
     },
     {
       type: "category",
       items: [
-         {
-          type: 'doc',
-          label: 'Introduction to Product',
-          id: 'documentation-tooling/intro',
+        {
+          type: "doc",
+          label: "Introduction to Product",
+          id: "documentation-tooling/intro",
         },
         {
-          type: 'doc',
-          label: 'Getting Started',
-          id:'documentation-tooling/getting-started'
+          type: "doc",
+          label: "Getting Started",
+          id: "documentation-tooling/getting-started",
         },
         {
-          type: 'category',
-          label: 'User Guides',
+          type: "category",
+          label: "User Guides",
           items: [
-            'documentation-tooling/user-guide/tutorials',
-            'documentation-tooling/user-guide/required-properties',
-            'documentation-tooling/user-guide/optional-properties',
+            "documentation-tooling/user-guide/tutorials",
+            "documentation-tooling/user-guide/required-properties",
+            "documentation-tooling/user-guide/optional-properties",
           ],
         },
       ],
-      label: "Documentation Tooling & Static Site Generators",
+      label: "Documentation Tooling",
+    },
+
+    {
+      type: "category",
+      items: [
+        {
+          type: "doc",
+          label: "Overview",
+          id: "api-documentation/intro",
+        },
+        {
+          type: "doc",
+          label: "Getting Started",
+          id: "api-documentation/getting-started",
+        },
+        {
+          type: "category",
+          label: "API References",
+          link: {
+            type: "doc",
+            id: "api-documentation/reference/overview",
+          },
+          items: [
+            "api-documentation/reference/newPhotos",
+            "api-documentation/reference/randomPhotos",
+            "api-documentation/reference/searchPhotos",
+          ],
+        },
+      ],
+      label: "API Documentation",
     },
   ],
 };
