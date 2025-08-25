@@ -33,7 +33,7 @@ Each page inside this `reference/` folder covers:
 ---
 
 ## Bonus: OpenAPI Spec
-
+<!-- 
 We also provide an **OpenAPI 3.0 specification** for this API:  
 - File: [`openapi.yaml`](./openapi.yaml)  
-- Use it with tools like **Swagger UI**, **Postman**, or the [Docusaurus OpenAPI Docs plugin](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs) for an interactive experience.  
+- Use it with tools like **Swagger UI**, **Postman**, or the [Docusaurus OpenAPI Docs plugin](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs) for an interactive experience.   -->
