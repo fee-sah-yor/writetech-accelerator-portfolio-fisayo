@@ -75,6 +75,26 @@ const config = {
     ],
   ],
 
+  //   plugins: [
+  //   [
+  //     'docusaurus-plugin-openapi-docs',
+  //     {
+  //       id: "api", // plugin id
+  //       docsPluginId: "classic", // configured for preset-classic
+  //       config: {
+  //         petstore: {
+  //           specPath: "examples/petstore.yaml",
+  //           outputDir: "docs/petstore",
+  //           sidebarOptions: {
+  //             groupPathsBy: "tag",
+  //           },
+  //         } satisfies OpenApiPlugin.Options,
+  //       }
+  //     },
+  //   ]
+  // ],
+
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
