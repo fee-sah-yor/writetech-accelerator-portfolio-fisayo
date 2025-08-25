@@ -73,8 +73,9 @@ const sidebars = {
             id: "api-documentation/reference/overview",
           },
           items: [
-            "api-documentation/reference/searchPhotos",
+            "api-documentation/reference/newPhotos",
             "api-documentation/reference/randomPhotos",
+            "api-documentation/reference/searchPhotos",
           ],
         },
       ],
