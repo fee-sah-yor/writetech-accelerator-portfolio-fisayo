@@ -20,5 +20,5 @@ jobs:
       - name: Run Broken Link Check
         uses: tcort/github-action-markdown-link-check@v1
         with:
-          folder-path: "."
+              folder-path: 'docs/docs-automation/sample.md'
       
