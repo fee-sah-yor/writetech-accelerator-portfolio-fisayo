@@ -10,7 +10,7 @@ It is agreed that the feature would be released.
 ## Links
 
 - [Valid link to GitHub](https://github.com)  
-- [Broken link example](https://example.com/does-not-exist-404)  
+- [Broken link example](https://example.com)  
 
 ## Style Issues
 
