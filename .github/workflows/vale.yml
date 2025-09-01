@@ -17,6 +17,7 @@ jobs:
           files: "**/*.md"
           version: "2.17.0"
           reporter: "github-pr-check"
+          vale_flags: "--config=.vale.ini"
       - name: Run Broken Link Check
         uses: tcort/github-action-markdown-link-check@v1
         with:
