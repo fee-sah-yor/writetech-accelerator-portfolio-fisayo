@@ -1,0 +1,23 @@
+name: Vale Lint
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  vale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Vale Check
+        uses: errata-ai/vale-action@v2
+        with:
+          files: "**/*.md"
+          version: "2.17.0"
+          reporter: "github-pr-check"
+      - name: Run Broken Link Check
+        uses: tcort/github-action-markdown-link-check@v1
+        with:
+          folder-path: "."
+      
