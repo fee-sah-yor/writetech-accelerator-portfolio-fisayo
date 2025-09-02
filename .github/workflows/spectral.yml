@@ -4,7 +4,7 @@ on:
   push:
     branches: ["*"]
   pull_request:
-  
+
   jobs:
     api-linting:
       name: Run Spectral
@@ -14,9 +14,9 @@ on:
       checks: write
       pull-requests: write
     steps:
-# Check out the repository
+      # Check out the repository
       - uses: actions/checkout@v3
-# Run Spectral
+        # Run Spectral
       - uses: stoplightio/spectral-action@latest
     with:
-      file_glob: '*.yaml'
+      file_glob: "*.yaml"
