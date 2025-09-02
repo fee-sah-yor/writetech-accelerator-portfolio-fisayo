@@ -40,3 +40,14 @@ This setup ensures documentation quality, consistency, and usability for develop
 * **Multimedia enhances understanding**: Including videos, images, and code snippets makes documentation more engaging and effective.
 * **Automation is key**: Having Vale and Spectral run automatically on commits ensures consistency without relying on manual reviews.
 * **Separation of roles**: Vale focuses on *language/style*, while Spectral ensures *technical correctness* in the OpenAPI spec.
+
+## Screenshots
+
+#### Vale Linting
+
+ <img src="/img/valeLinting.png" alt="vale image" width="300" />
+
+## Spectral Linting
+ <img src="/img/spectralLinting.png" alt="spectral image" width="300" />
+
+ 
