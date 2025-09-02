@@ -1,0 +1,23 @@
+name: Lint Open API and Publish
+
+on:
+  push: 
+    branches:
+      - main
+    pull_request:
+      branches: [main]
+  jobs:
+    api-linting:
+      name: Run Spectral
+      runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      checks: write
+      pull-requests: write
+    steps:
+# Check out the repository
+      - uses: actions/checkout@v3
+# Run Spectral
+      - uses: stoplightio/spectral-action@latest
+    with:
+      file_glob: '*.yaml'
