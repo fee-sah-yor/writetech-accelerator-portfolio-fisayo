@@ -37,5 +37,5 @@ jobs:
         with:
           node-version: '18'
       - name: Generate API Docs
-        run: npx @redocly/cli build-docs docs/docs-automation/openapi.yaml -o docs/docs-automation/openapi.html
+        run: npx @redocly/cli build-docs docs/docs-automation/openapi.yaml -o docs/docs-automation/static/reference.html
         
