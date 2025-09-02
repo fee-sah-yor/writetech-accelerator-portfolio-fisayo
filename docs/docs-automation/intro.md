@@ -1,0 +1,1 @@
+ This is an automation page for the Vale Linting, the task happens under the hood
