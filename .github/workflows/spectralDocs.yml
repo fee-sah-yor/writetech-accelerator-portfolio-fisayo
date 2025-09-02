@@ -21,8 +21,21 @@ jobs:
         with:
           file_glob: "docs/*.yaml"
 
-      - name: Install Redocly CLI
-        run: npm install -g @redocly/cli
+      # - name: Install Redocly CLI
+      #   run: npm install -g @redocly/cli
 
+      # - name: Generate API Docs
+      #   run: redocly build-docs docs/docs-automation/openapi.yaml -o docs/docs-automation/openapi.html
+  generate-site:
+    name: Generate API reference
+    runs-on: ubuntu-latest
+    needs: api-linting
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
       - name: Generate API Docs
-        run: redocly build-docs docs/docs-automation/openapi.yaml -o docs/docs-automation/openapi.html
+        run: npx @redocly/cli build-docs docs/docs-automation/openapi.yaml -o docs/docs-automation/openapi.html
+        
