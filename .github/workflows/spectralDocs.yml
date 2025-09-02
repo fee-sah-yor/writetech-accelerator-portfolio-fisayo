@@ -5,18 +5,18 @@ on:
     branches: ["*"]
   pull_request:
 
-  jobs:
-    api-linting:
-      name: Run Spectral
-      runs-on: ubuntu-latest
-      permissions:
-        contents: write
-        checks: write
-        pull-requests: write
-      steps:
+jobs:
+  api-linting:
+    name: Run Spectral
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      checks: write
+      pull-requests: write
+    steps:
       # Check out the repository
-        - uses: actions/checkout@v3
-        # Run Spectral
-        - uses: stoplightio/spectral-action@latest
-      with:
-        file_glob: "docs/*.yaml"
+      - uses: actions/checkout@v3
+      # Run Spectral
+      - uses: stoplightio/spectral-action@latest
+    with:
+      file_glob: "docs/*.yaml"
