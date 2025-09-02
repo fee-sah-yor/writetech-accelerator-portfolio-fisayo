@@ -1,0 +1,22 @@
+name: Vale Lint
+
+on:
+  push:
+    branches: ["*"]
+  pull_request:
+
+jobs:
+  vale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Vale Check
+        uses: errata-ai/vale-action@v2
+        with:
+          files: "**/*.md"
+      - name: Run Broken Link Check
+        uses: tcort/github-action-markdown-link-check@v1
+        with:
+              folder-path: './docs/docs-automation'
+      
