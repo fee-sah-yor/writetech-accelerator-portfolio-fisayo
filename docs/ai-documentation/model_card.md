@@ -44,21 +44,25 @@ GPT-4o was trained using data collected up to **October 2023**. Training involve
 
 ---
 
-## 4. Metrics & Evaluation
 
-### Technical Metrics
-- **Perplexity**  
-- **Accuracy**  
+## 4. Metrics & Evaluation  
 
-### Safety & Alignment Metrics
-- **Toxicity Scores**  
-- **Helpfulness & Harmlessness Ratings**  
-- Filters against disallowed outputs (e.g., copyrighted content, ungrounded inference, sensitive traits, erotic/violent speech).  
+GPT-4o has been evaluated using a combination of **technical performance benchmarks**, **safety and alignment tests**, and **user engagement metrics**.  
 
-### User Engagement Metrics
-- **Response Speed**: Audio responses as fast as 232ms (average 320ms), similar to human conversation.  
-- **Session Length**  
-- **User Feedback**  
+### Technical Metrics  
+- **Perplexity:** This measures how well the model predicts the next word.  
+- **Accuracy:** It is evaluated across professional and academic benchmarks in reasoning, coding, and language tasks.  
+
+### Safety & Alignment Metrics  
+Post-training adjustments and system filters were applied to reduce harmful or misleading behavior, including:  
+- **Toxicity scores** (measuring harmful language output)  
+- **Helpfulness and harmlessness ratings** (ensuring responses are useful and safe)  
+- **Audio safeguards** (blocking unauthorized voice generation, disallowed speech, or misuse of speaker identification)  
+- **Content filters** to avoid generating copyrighted or disallowed material  
+
+### User Engagement Metrics  
+- **Response Time:** GPT-4o can respond to audio inputs in as little as 232 ms (average 320 ms), approaching human conversational speed.  
+- **Session Length & Feedback:** User studies and live feedback are used to assess satisfaction and engagement across use cases.  
 
 ---
 
@@ -75,7 +79,5 @@ Like previous models, GPT-4o comes with risks:
 
 ## References
 
-1. (OpenAI. *GPT-4 Report*. 2023. )[https://openai.com/index/gpt-4-research/]
-2. (OpenAI. *GPT-4o System Card*. 2024.)[https://openai.com/index/gpt-4o-system-card/]
-
----
+1. [OpenAI. *GPT-4 Report*. 2023.](https://openai.com/index/gpt-4-research/)
+2. [OpenAI. *GPT-4o System Card*. 2024.](https://openai.com/index/gpt-4o-system-card/)
