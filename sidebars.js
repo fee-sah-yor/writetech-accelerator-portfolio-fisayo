@@ -81,6 +81,30 @@ const sidebars = {
       ],
       label: "API Documentation",
     },
+
+     {
+      type: "category",
+      items: [
+        {
+          type: "doc",
+          label: "Overview",
+          id: "ai-documentation/intro",
+        },
+        {
+          type: "doc",
+          label: "Improved AI Response",
+          id: "ai-documentation/final_docs",
+        },
+
+        {
+          type: "doc",
+          label: "AI Model Card",
+          id: "ai-documentation/model_card",
+        },
+
+      ],
+      label: "AI Documentation",
+    },
   ],
 };
 
