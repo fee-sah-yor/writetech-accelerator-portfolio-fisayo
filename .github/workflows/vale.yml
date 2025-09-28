@@ -1,9 +1,9 @@
 name: Vale Lint
 
 on:
-  push:
-    branches: ["*"]
   pull_request:
+    branches:
+      - main
 
 jobs:
   vale:

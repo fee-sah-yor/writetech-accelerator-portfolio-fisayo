@@ -1,9 +1,9 @@
 name: Lint Open API and Publish
 
 on:
-  push:
-    branches: ["*"]
   pull_request:
+    branches:
+      - main
 
 jobs:
   api-linting:
@@ -20,6 +20,7 @@ jobs:
       - uses: stoplightio/spectral-action@latest
         with:
           file_glob: "docs/*.yaml"
+
   generate-site:
     name: Generate API reference
     runs-on: ubuntu-latest
@@ -30,6 +31,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
+
       - name: Generate API Docs
         run: npx @redocly/cli build-docs docs/docs-automation/openapi.yaml -o docs/docs-automation/openapi.html
-        
+
+
