@@ -5,6 +5,7 @@ Dearest gentle reader, if you’re reading this, then I finally wrote the simple
 Continuous Integration (CI) and Continuous Deployment (CD) are two closely linked concepts. They work as a team and are used in many tech teams globally.
 
 **Continuous Integration (CI):** the process of automatically checking and testing new changes before they are merged into the main project. Think of it as a way to catch issues early, so problems don’t pile up.
+
 **Continuous Deployment (CD):** the process of automatically delivering those verified changes to production (to users). Once your code passes the CI checks, it gets deployed without manual effort.
 
 
@@ -31,6 +32,12 @@ CD takes it further: once the menu is approved, it’s automatically plated and 
 ## Example of a CI/CD File (GitHub Actions)
 This CI/CD file was created using GitHub Actions. GitHub runs actions when conditions for the workflow are met. The file lives inside the .github/workflows folder.
 Think of it like a document that tells each chef what to do, so the main chef doesn’t have to shout orders. It uses a .yml extension and the number one rule to follow when writing YAML is indentation.
+
+### Breaking down the components:
+- **name:** This is simply the title of the workflow. Think of it as naming the recipe.
+- **on:** This tells GitHub when to run the workflow. In this example, it runs whenever a pull request is opened or updated on the main branch (like when a vegetable is sent to the head chef for review).
+- **jobs:** These are the tasks the workflow must perform. Each job has its own steps.
+- **steps:** The actual instructions in order. Each step can use an action (a pre-built tool) or run a command.
 
 **Example:**
 ```bash
@@ -98,9 +105,9 @@ jobs:
 
 ```
 
-CI Step: Runs tests automatically when you open a pull request (like checking veggies before they reach the menu).
+**CI Step:** Runs tests automatically when you open a pull request (like checking veggies before they reach the menu).
 
-CD Step: Deploys the app once everything is approved and merged (like plating and serving the food).
+**CD Step:** Deploys the app once everything is approved and merged (like plating and serving the food).
 
 
 ## Conclusion
